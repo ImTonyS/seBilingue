@@ -27,3 +27,69 @@
     background-color: var(--naranja);
   }
 
+  
+  @keyframes animateWave{
+    0% {
+      transform: scale(1, 0);
+    } 
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+  .animacionEntry{
+    animation: animateWave 300ms cubic-bezier(0.23, 1, 0.32, 1)
+    backwards;
+    transform-origin: bottom;
+  }
+
+  .bg-bluey{
+    background-image: url('../images/bgbluey.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    animation: animateWave 1500ms cubic-bezier(0.23, 1, 0.32, 1)
+    backwards;
+    transform-origin: bottom;
+  }
+
+  .bg-pinky{
+    background-image: url('../images/bgpinky.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    animation: animateWave 1500ms cubic-bezier(0.23, 1, 0.32, 1)
+    forwards;
+    transform-origin: bottom;
+  }
+
+  .bg-orangey{
+    background-image: url('../images/bgorangey.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    animation: animateWave 1500ms cubic-bezier(0.23, 1, 0.32, 1)
+    backwards;
+    transform-origin: bottom;
+  }
+
+  .default{
+    background-color: #0089cc;
+    border-radius: 50px;
+    color:white;
+    font-size: 32px;
+  }
+
+  .appear{
+    display: none;
+  }
+
+  .appearBlue{
+    display: none;
+  }
+
+
+
