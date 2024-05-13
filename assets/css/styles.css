@@ -1,0 +1,29 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root{
+    --azul: #0089cc;
+    --rosa: #f590b2;
+    --naranja: #e75227;
+  }
+  
+  .hover{
+    background-color: #232323;
+  }
+  
+  .hover1{
+    background-color: var(--azul);
+  }
+  
+  .hover2{
+    background-color: var(--rosa);
+  }
+  
+  .hover3{
+    background-color: var(--naranja);
+  }
+
