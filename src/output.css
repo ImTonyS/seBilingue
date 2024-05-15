@@ -554,12 +554,24 @@ video {
   --tw-contain-style:  ;
 }
 
+.relative {
+  position: relative;
+}
+
 .sticky {
   position: sticky;
 }
 
+.left-10 {
+  left: 2.5rem;
+}
+
 .m-6 {
   margin: 1.5rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
 }
 
 .mx-10 {
@@ -619,6 +631,18 @@ video {
   height: 100vh;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
 .max-h-10 {
   max-height: 2.5rem;
 }
@@ -633,6 +657,22 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[8-\%\] {
+  width: 8-%;
+}
+
+.w-\[8\%\] {
+  width: 8%;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
 }
 
 .grow {
@@ -710,6 +750,16 @@ video {
   background-color: rgb(252 252 252 / var(--tw-bg-opacity));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -730,6 +780,14 @@ video {
   padding: 1rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -743,6 +801,31 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-80 {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .pb-4 {
@@ -1049,6 +1132,26 @@ video {
 
 .\[\&\>h3\]\:hover\:rounded-full:hover>h3 {
   border-radius: 9999px;
+}
+
+.\[\&\>input\]\:m-6>input {
+  margin: 1.5rem;
+}
+
+.\[\&\>input\]\:m-2>input {
+  margin: 0.5rem;
+}
+
+.\[\&\>input\]\:m-4>input {
+  margin: 1rem;
+}
+
+.\[\&\>input\]\:p-10>input {
+  padding: 2.5rem;
+}
+
+.\[\&\>input\]\:p-2>input {
+  padding: 0.5rem;
 }
 
 
